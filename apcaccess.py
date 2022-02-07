@@ -55,10 +55,10 @@ def getAPCUPS():
     
     output = output.strip(',')
 
-    print(output)
+    return output
 
 
 if __name__ == '__main__':
-    getAPCUPS()
+    print( getAPCUPS() )
     
         
